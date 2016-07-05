@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'india_fashion/how_it_works'
+
+  get 'india_fashion/who_we_are'
+
+  get 'india_fashion/benefits'
+
   devise_for :users
   resources :links
 
